@@ -1,4 +1,4 @@
-# Summary of "A Comparison of NoSQL Database Management Systems and Models and Data Lakehouse"
+# Summary of Articles "A Comparison of NoSQL Database Management Systems and Models and Data Lakehouse"
 
 
 ## Article 1: A Comparison of NoSQL Database Management Systems and Models 
