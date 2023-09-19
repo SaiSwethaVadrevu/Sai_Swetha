@@ -1,22 +1,14 @@
 # Summary of "A Comparison of NoSQL Database Management Systems and Models and Data Lakehouse"
 
 
-This summary provides an overview of two articles that discuss modern database technologies and data lakehouse concepts. The first article explores various NoSQL database management systems and models, while the second article delves into the concept of data lakehouses.
-
-## Article 1: A Comparison of NoSQL Database Management Systems and Models
-The first article on DigitalOcean offers insights into the world of NoSQL databases. It compares different NoSQL database management systems (DBMS) and models, highlighting their strengths and use cases. It discusses key NoSQL database types, including document-oriented, key-value, column-family, and graph databases. The article emphasizes that NoSQL databases are designed to handle large volumes of unstructured or semi-structured data, making them suitable for various modern applications, such as real-time analytics and content management systems.
-
-### Key Points:
-Comparison of NoSQL database types and their features.
-Use cases for NoSQL databases in modern applications.
-Benefits of using NoSQL databases for scalability and flexibility.
+## Article 1: A Comparison of NoSQL Database Management Systems and Models 
+This article introduces NoSQL databases as alternatives to traditional relational databases due to their ability to overcome limitations such as difficulty in horizontal scaling and handling unstructured data. NoSQL databases encompass various models, including key-value stores, columnar databases, document-oriented databases, and graph databases. Key-value databases focus on efficient data retrieval with associative arrays, while columnar databases store data in columns for fast query processing. Document-oriented databases store data as documents with flexible schemas, ideal for diverse data types. Graph databases emphasize relationships between data points, making them suitable for applications like social networks and fraud detection. Each NoSQL model has unique strengths, catering to specific use cases, marking the evolution of database management systems beyond the relational model.
 
 ## Article 2: Data Lakehouse
-The second article from Databricks introduces the concept of a "data lakehouse." It combines the best features of data lakes and data warehouses, aiming to provide a unified platform for data storage, processing, and analytics. The data lakehouse architecture integrates data engineering, data warehousing, and data science, enabling organizations to manage their data efficiently and derive valuable insights. It emphasizes the importance of structured data and the role of Apache Delta Lake in ensuring data quality and reliability within a data lakehouse.
+The second article from Databricks introduces the concept of a data lakehouse. A data lakehouse is an innovative data management architecture that combines the versatility of data lakes with the structure and transaction capabilities of data warehouses. It integrates metadata layers, optimized query engines, and accessibility for data science and machine learning. This architecture simplifies data management, accelerates data-driven projects, and reduces the complexities of traditional two-tier data architectures. Data lakehouses enable cost-effective storage and analysis of diverse data types, fostering flexibility and scalability while unifying data management for business intelligence and machine learning applications.
 
 ![Datalake Architecture](https://www.databricks.com/wp-content/uploads/2020/01/data-lakehouse-new.png)
 
-### Key Points:
-Introduction to the data lakehouse concept as a fusion of data lakes and data warehouses.
-The role of Apache Delta Lake in maintaining data quality.
-The benefits of data lakehouses for scalable data analytics.
+## References
+* https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models
+* https://www.databricks.com/glossary/data-lakehouse
