@@ -1,6 +1,5 @@
 # Summary of "A Comparison of NoSQL Database Management Systems and Models and Data Lakehouse"
 
-![NoSQL Databases](https://www.digitalocean.com/community/static/3a5e1770adfe9e5ca2f2ca839f1f5b1e/covers/comparison-of-nosql-database-management-systems-and-models.png)
 
 This summary provides an overview of two articles that discuss modern database technologies and data lakehouse concepts. The first article explores various NoSQL database management systems and models, while the second article delves into the concept of data lakehouses.
 
@@ -14,6 +13,9 @@ Benefits of using NoSQL databases for scalability and flexibility.
 
 ## Article 2: Data Lakehouse
 The second article from Databricks introduces the concept of a "data lakehouse." It combines the best features of data lakes and data warehouses, aiming to provide a unified platform for data storage, processing, and analytics. The data lakehouse architecture integrates data engineering, data warehousing, and data science, enabling organizations to manage their data efficiently and derive valuable insights. It emphasizes the importance of structured data and the role of Apache Delta Lake in ensuring data quality and reliability within a data lakehouse.
+
+![Datalake Architecture](https://www.databricks.com/wp-content/uploads/2020/01/data-lakehouse-new.png)
+
 ### Key Points:
 Introduction to the data lakehouse concept as a fusion of data lakes and data warehouses.
 The role of Apache Delta Lake in maintaining data quality.
