@@ -2,7 +2,6 @@
 
 ![NoSQL Databases](https://www.digitalocean.com/community/static/3a5e1770adfe9e5ca2f2ca839f1f5b1e/covers/comparison-of-nosql-database-management-systems-and-models.png)
 
-## Introduction
 This summary provides an overview of two articles that discuss modern database technologies and data lakehouse concepts. The first article explores various NoSQL database management systems and models, while the second article delves into the concept of data lakehouses.
 
 ## Article 1: A Comparison of NoSQL Database Management Systems and Models
